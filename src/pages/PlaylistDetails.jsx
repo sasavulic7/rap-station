@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { usePlayerStore } from "../store/playerStore";
 import { useState, useEffect } from "react";
 import { tracks } from "../data/tracks";
-import Sidebar from "../components/sidebar";
+import Sidebar from "../components/Sidebar";
 import { Link } from "react-router-dom";
 import Player from "../components/Player";
 import { Play, Pause, Heart, Plus, Trash2, ArrowLeft, Music } from "lucide-react";

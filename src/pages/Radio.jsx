@@ -10,7 +10,6 @@ export default function RadioPage() {
   const audioRef = useRef(null);
   const prevTrackRef = useRef(null);
 
-  // biramo novu pesmu nasumično ali ne istu kao prethodnu
   const getRandomTrack = () => {
     if (tracks.length === 0) return null;
 
