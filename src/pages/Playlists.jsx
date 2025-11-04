@@ -1,7 +1,7 @@
 import { usePlayerStore } from "../store/playerStore";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/sidebar";
 import { Plus, Trash2, Play } from "lucide-react";
 
 //
